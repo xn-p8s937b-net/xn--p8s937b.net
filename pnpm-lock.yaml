@@ -11,6 +11,9 @@ dependencies:
   dotenv:
     specifier: ^16.3.1
     version: 16.3.1
+  punycode:
+    specifier: ^2.3.1
+    version: 2.3.1
 
 packages:
 
@@ -162,6 +165,11 @@ packages:
   /prepend-http@1.0.4:
     resolution: {integrity: sha512-PhmXi5XmoyKw1Un4E+opM2KcsJInDvKyuOumcjjw3waw86ZNjHwVUOOWLc4bCzLdcKNaWBH9e99sbWzDQsVaYg==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /punycode@2.3.1:
+    resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
+    engines: {node: '>=6'}
     dev: false
 
   /safe-buffer@5.2.1:

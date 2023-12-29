@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "cloudflare": "^2.9.1",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "punycode": "^2.3.1"
   }
 }
