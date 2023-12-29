@@ -17,9 +17,14 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 21
+
     - uses: pnpm/action-setup@v2
       name: Install pnpm
       with:
         version: 8
         run_install: true
+
     - run: pnpm start
+      env:
+        CF_TOKEN: ${{ secrets.CF_TOKEN }}
+        CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
