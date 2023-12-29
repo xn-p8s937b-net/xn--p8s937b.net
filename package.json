@@ -1,0 +1,16 @@
+{
+  "name": "xn--p8s937b.net",
+  "version": "0.0.1",
+  "description": "",
+  "main": "update.js",
+  "scripts": {
+    "start": "node update.js"
+  },
+  "keywords": [],
+  "author": "Lee0701",
+  "license": "ISC",
+  "dependencies": {
+    "cloudflare": "^2.9.1",
+    "dotenv": "^16.3.1"
+  }
+}
